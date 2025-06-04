@@ -1,7 +1,8 @@
 # 🍽️ Ayfa Restaurant — Persian Cuisine Chatbot Demo
 
 Welcome to **Ayfa Restaurant**, a demo project that brings a fictional Persian restaurant to life through a rich user interface and an intelligent, Dialogflow-powered chatbot assistant.  
-This is not just a static website — it's an interactive showcase of how AI and frontend development can work together to create a seamless customer experience.
+⚠️ **Note:** This is a fictional project designed to demonstrate my ability to combine front-end development, API integration, and chatbot design.
+
 
 ### 🤖 What Can the Chatbot Do?
 
@@ -60,7 +61,7 @@ It also handles:
 A quick glance at the UI:
 
 <img src="images/site.png" width="450"/>
-
+<img src="images/site2.png" width="450"/>
 
 ---
 
