@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.*
+
+# Secret config
+app.py
+
+# Node and frontend junk (if needed)
+node_modules/
+dist/
+build/
+
+# OS
+.DS_Store
+

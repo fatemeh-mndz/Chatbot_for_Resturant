@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Persian Delight</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffaf4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #b03e00;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .location {
+      background-color: #f8f4ef;
+      padding: 2rem;
+      text-align: center;
+    }
+    .reviews {
+      background-color: #fff3e0;
+      padding: 2rem;
+      text-align: center;
+    }
+    .review {
+      max-width: 600px;
+      margin: 1rem auto;
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    footer {
+      background-color: #b03e00;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ayfa Restaurant</h1>
+    <p>Authentic Persian Cuisine in the Heart of Paris</p>
+  </header>
+
+  <section class="menu">
+    <div class="card">
+      <img src="https://th.bing.com/th/id/OIP.s3ON8QTOxfTNs4HSFWbP5wHaHa?rs=1&pid=ImgDetMain" alt="Chelo Kebab" />
+      <h3>Chelo Kebab</h3>
+      <p>Juicy grilled meat with saffron rice</p>
+      <span>€14.90</span>
+    </div>
+    <div class="card">
+      <img src="https://salamdonya.com/assets/images/37/37896ucz5.jpg" alt="Ghormeh Sabzi" />
+      <h3>Ghormeh Sabzi</h3>
+      <p>Herb stew with kidney beans and lamb</p>
+      <span>€13.50</span>
+    </div>
+    <div class="card">
+      <img src="https://dayan.ir/wp-content/uploads/2018/07/Capture-17-596x589.png" alt="Fesenjan" />
+      <h3>Fesenjan</h3>
+      <p>Walnut and pomegranate stew with chicken</p>
+      <span>€15.00</span>
+    </div>
+    <div class="card">
+      <img src="https://noktechi.ir/wp-content/uploads/2022/08/khoresh-gheyme-gosht-ghelgheli.jpg" alt="Khoresht Gheymeh" />
+      <h3>Khoresht Gheymeh</h3>
+      <p>Split pea stew with beef and crispy potatoes</p>
+      <span>€12.90</span>
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/originals/cc/5e/4c/cc5e4c44c1a7728d8a03e96df14cd32f.jpg" alt="Tahdig" />
+      <h3>Tahdig</h3>
+      <p>Golden crispy rice crust</p>
+      <span>€11.90</span>
+    </div>
+    <div class="card">
+      <img src="https://mirito.ir/wp-content/uploads/2022/10/zereshk-polo-morgh.jpg" alt="Zereshk Polo" />
+      <h3>Zereshk Polo</h3>
+      <p>Barberry rice with saffron and chicken</p>
+      <span>€13.90</span>
+    </div>
+  </section>
+
+  <section class="location">
+    <h2>Visit Us</h2>
+    <p>📍 123 Boulevard Haussmann, 75008 Paris, France</p>
+    <p>🕒 <strong>Opening Hours:</strong><br>
+       Mon–Fri: 12:00 PM – 10:00 PM<br>
+       Sat–Sun: 1:00 PM – 11:00 PM
+    </p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9993597859816!2d2.3137908156741016!3d48.874846779288886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdec4d2f6e1%3A0x6863e60b7e8b4a2!2sBoulevard%20Haussmann%2C%20Paris!5e0!3m2!1sen!2sfr!4v1620000000000" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <section class="reviews">
+    <h2>What Our Customers Say</h2>
+    <div class="review">
+      <p>⭐️⭐️⭐️⭐️⭐️</p>
+      <p>"Amazing food and lovely atmosphere. Felt like I was back in Tehran!"<br>– Ladan M.</p>
+    </div>
+    <div class="review">
+      <p>⭐️⭐️⭐️⭐️</p>
+      <p>"The kebabs were super juicy and flavorful. Highly recommended."<br>– Amir R.</p>
+    </div>
+    <div class="review">
+      <p>⭐️⭐️⭐️⭐️⭐️</p>
+      <p>"First time trying Persian food – absolutely loved the Fesenjan!"<br>– Claire D.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ayfa. All rights reserved.</p>
+  </footer>
+
+  <!-- Dialogflow Chatbot -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="amore_chatbot"
+    agent-id="9215fc03-58eb-4fb9-a12c-d10d2a612bb3"
+    language-code="en">
+  </df-messenger>
+</body>
+</html>
+
+
+
+
+
+
+
