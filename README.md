@@ -1,72 +1,82 @@
 # 🍽️ Ayfa Restaurant — Persian Cuisine Chatbot Demo
 
-Welcome to **Ayfa Restaurant**, a showcase project that simulates an online Persian restaurant experience, enhanced with a fully integrated Dialogflow chatbot assistant for handling customer interactions like:
+Welcome to **Ayfa Restaurant**, a demo project that brings a fictional Persian restaurant to life through a rich user interface and an intelligent, Dialogflow-powered chatbot assistant.  
+This is not just a static website — it's an interactive showcase of how AI and frontend development can work together to create a seamless customer experience.
 
-- 🗓️ Table reservations  
-- 📦 Order tracking  
-- ❌ Order and reservation cancellation  
-- ☎️ WhatsApp confirmations via Twilio
+### 🤖 What Can the Chatbot Do?
 
-> ⚠️ This is not a real restaurant. This project is developed solely to demonstrate my skills in front-end development, chatbot integration, and API communication.
+- 🗓️ Make and confirm **table reservations**  
+- 📦 Help customers **track orders**  
+- ❌ Handle **order & reservation cancellations**  
+- 📲 Send **WhatsApp confirmations** using **Twilio API**
+
+> ⚠️ **Note:** This is a fictional project designed to demonstrate my ability to combine front-end development, API integration, and chatbot design.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- 🧠 **Dialogflow Chatbot** — Smart assistant powered by Dialogflow and integrated directly in the UI.
-- 💬 **WhatsApp Notification System** — Uses Twilio API to send reservation confirmations via WhatsApp.
-- 🍛 **Modern UI** — Clean responsive interface with traditional Persian dishes.
-- 🗺️ **Embedded Google Maps** — Shows the (fictional) restaurant location.
-- ⭐ **Customer Reviews Section** — Adds credibility and UI richness.
+- 🧠 **Dialogflow AI Chatbot** — Embedded right into the site, responds in real-time  
+- 💬 **WhatsApp Notifications via Twilio** — Instant updates & confirmations  
+- 🍽️ **Traditional Persian Menu UI** — Styled with modern, responsive HTML/CSS  
+- 📍 **Google Maps Embed** — For real-world-like location display  
+- ⭐ **Customer Reviews Section** — Enhances realism and UI quality
 
 ---
 
 ## 💡 Technologies Used
 
-| Frontend        | Chatbot & APIs       |
-|-----------------|----------------------|
-| HTML5 / CSS3     | Dialogflow ES Agent  |
-| Vanilla JS (UI)  | Twilio WhatsApp API  |
-| Responsive Design | Flask Webhook (Python) |
-| Google Maps Embed | RESTful Communication |
+| Frontend           | Backend & AI            |
+|--------------------|------------------------|
+| HTML5 / CSS3       | Google Dialogflow (ES) |
+| Vanilla JavaScript  | Flask (Python Webhook) |
+| Responsive Design  | Twilio WhatsApp API    |
+| Google Maps Embed  | RESTful Communication  |
 
 ---
 
-## 🤖 Chatbot Highlights
+## 🤖 Chatbot Showcase
 
-The chatbot is built using **Google Dialogflow** and connected to a custom webhook that:
+The chatbot is powered by **Dialogflow**, linked to a Flask webhook, and connected to **Twilio's WhatsApp API**. It supports multiple real-world customer intents:
 
-- Validates user input (date/time/phone)
-- Parses and formats reservation info
-- Sends messages via **WhatsApp using Twilio API**
-- Handles multiple intents:
-  - `Reserve Table`
-  - `Track Order`
-  - `Cancel Order`
-  - `Cancel Reservation`
+- `Reserve Table`  
+- `Track Order`  
+- `Cancel Order`  
+- `Cancel Reservation`
 
-> 🖥️ A sample flow is shown in the GIF below:
+It also handles:
+- User input validation (e.g., time/date, phone numbers)
+- Message formatting & response logic
+- External API calls for WhatsApp messaging
+
+> 🎬 Want to see it in action? Watch this chatbot flow in the demo GIF below:
 
 ![Chatbot demo](images/Animation.gif)
 
 ---
 
-## 📷 Screenshot
+## 📷 Screenshots
 
-<img src="images/site.png" width="400"/>  
+A quick glance at the UI:
 
----
+<img src="images/site.png" width="450"/>
 
-
-
-## 🧠 About Me
-
-I'm **Fati**, a self-taught AI enthusiast and front-end developer passionate about building intelligent, interactive systems. I love blending traditional software with machine learning and real-world user experience.
-
-- 💬 Languages: English, French, Persian  
-- 💻 Focus: AI, Web, Robotics  
-- 🌱 Goal: Start my own robotics company  
-- 📫 Contact: [LinkedIn/GitHub/Email]
 
 ---
+
+## 🧪 How to Run This Project
+
+```bash
+# Clone the repository
+git clone https://github.com/fatemeh-mndz/Chatbot_for_Resturant.git
+cd Chatbot_for_Resturant
+
+# Optional: set up virtual environment if backend exists
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+
+# Run Flask webhook (if used)
+python app.py
+
 
